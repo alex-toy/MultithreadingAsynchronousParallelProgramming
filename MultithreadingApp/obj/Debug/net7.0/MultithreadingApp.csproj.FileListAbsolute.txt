@@ -1,0 +1,12 @@
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.deps.json
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.dll
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.pdb
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.csproj.AssemblyReference.cache
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.AssemblyInfoInputs.cache
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.AssemblyInfo.cs
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.csproj.CoreCompileInputs.cache
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.dll
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\refint\MultithreadingApp.dll
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.pdb
+C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Debug\net7.0\ref\MultithreadingApp.dll
