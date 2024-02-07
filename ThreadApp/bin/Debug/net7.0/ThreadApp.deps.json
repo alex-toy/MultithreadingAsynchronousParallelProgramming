@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ThreadApp/1.0.0": {
+        "dependencies": {
+          "MultithreadingApp": "1.0.0"
+        },
         "runtime": {
           "ThreadApp.dll": {}
+        }
+      },
+      "MultithreadingApp/1.0.0": {
+        "runtime": {
+          "MultithreadingApp.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ThreadApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MultithreadingApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

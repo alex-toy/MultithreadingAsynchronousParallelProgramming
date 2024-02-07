@@ -28,3 +28,6 @@ C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\obj\Deb
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\obj\Debug\net7.0\ThreadApp.pdb
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\obj\Debug\net7.0\ThreadApp.genruntimeconfig.cache
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\obj\Debug\net7.0\ref\ThreadApp.dll
+C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\bin\Debug\net7.0\MultithreadingApp.dll
+C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\bin\Debug\net7.0\MultithreadingApp.pdb
+C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\ThreadApp\obj\Debug\net7.0\ThreadApp.csproj.CopyComplete

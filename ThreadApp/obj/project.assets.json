@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "MultithreadingApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MultithreadingApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MultithreadingApp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MultithreadingApp/1.0.0": {
+      "type": "project",
+      "path": "../MultithreadingApp/MultithreadingApp.csproj",
+      "msbuildProject": "../MultithreadingApp/MultithreadingApp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "MultithreadingApp >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alexe\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\Csharp\\MultithreadingAsynchronousParallelProgramming\\MultithreadingApp\\MultithreadingApp.csproj": {
+              "projectPath": "C:\\source\\Csharp\\MultithreadingAsynchronousParallelProgramming\\MultithreadingApp\\MultithreadingApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
