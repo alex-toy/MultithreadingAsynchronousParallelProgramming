@@ -16,7 +16,9 @@ namespace ThreadApp
 
             //ParameterizedThreadConstructor.CreateThreads();
 
-            DataThread.CreateThreads();
+            //DataThread.CreateThreads();
+
+            RetrieveDataThread.CreateThreads();
         }
 
         private static void GetMainThread()
