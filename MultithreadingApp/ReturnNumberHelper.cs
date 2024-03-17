@@ -1,13 +1,15 @@
 ﻿namespace MultithreadingApp
 {
-    public class NumberHelper
+    public class ReturnNumberHelper
     {
-        public delegate int SumOfNumbers(int sum);
+        public delegate void SumOfNumbers(int sum);
         private readonly int _number;
+        private readonly SumOfNumbers? _sumOfNumbers;
 
-        public NumberHelper(int number)
+        public ReturnNumberHelper(int number, SumOfNumbers sumOfNumbers)
         {
             _number = number;
+            _sumOfNumbers = sumOfNumbers;
         }
 
         public void ShowNumbers()
@@ -18,6 +20,8 @@
                 sum += i;
                 Console.WriteLine($"ShowNumbers : {i}");
             }
+
+            if (_sumOfNumbers != null) _sumOfNumbers(sum);
         }
     }
 }

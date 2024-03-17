@@ -6,7 +6,8 @@
         {
             ParameterizedThreadStart threadStart = new ParameterizedThreadStart(ShowNumbers);
             var thread = new Thread(threadStart);
-            thread.Start(6);
+            int numberCount = 6;
+            thread.Start(numberCount);
         }
 
         public static void ShowNumbers(object count)

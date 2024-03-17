@@ -18,7 +18,20 @@ namespace ThreadApp
 
             //DataThread.CreateThreads();
 
-            RetrieveDataThread.CreateThreads();
+            //RetrieveDataThread.CreateThreads();
+
+            //ParameterizedThreadConstructor.CreateThreads();
+
+            //NumberHelper numberHelper = new NumberHelper(6);
+            //var sptc = new SafeParameterizedThreadConstructor(numberHelper);
+            //sptc.CreateThreads();
+
+            //var numberHelper = new ReturnNumberHelper(6, sum => { Console.WriteLine(sum); });
+            //var sptc = new ReturningDataThread(numberHelper);
+            //sptc.CreateThreads();
+
+            var sptc = new JoiningThread();
+            sptc.CreateThreads();
         }
 
         private static void GetMainThread()

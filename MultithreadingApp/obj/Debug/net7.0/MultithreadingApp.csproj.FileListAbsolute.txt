@@ -13,7 +13,6 @@ C:\source\vue\VueJavascriptFramework\MultithreadingApp\MultithreadingApp\obj\Deb
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.deps.json
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.dll
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\bin\Debug\net7.0\MultithreadingApp.pdb
-C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.csproj.AssemblyReference.cache
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.AssemblyInfoInputs.cache
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\refint\MultithreadingApp.dll
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.pdb
 C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\ref\MultithreadingApp.dll
+C:\source\Csharp\MultithreadingAsynchronousParallelProgramming\MultithreadingApp\obj\Debug\net7.0\MultithreadingApp.sourcelink.json
