@@ -30,8 +30,10 @@ namespace ThreadApp
             //var sptc = new ReturningDataThread(numberHelper);
             //sptc.CreateThreads();
 
-            var sptc = new JoiningThread();
-            sptc.CreateThreads();
+            //var sptc = new JoiningThread();
+            //sptc.CreateThreads();
+
+            SharedResource.CreateThreads();
         }
 
         private static void GetMainThread()
