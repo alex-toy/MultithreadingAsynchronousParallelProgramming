@@ -33,7 +33,9 @@ namespace ThreadApp
             //var sptc = new JoiningThread();
             //sptc.CreateThreads();
 
-            SharedResource.CreateThreads();
+            //SharedResource.CreateThreads();
+
+            MonitorThread.CreateThreads();
         }
 
         private static void GetMainThread()
