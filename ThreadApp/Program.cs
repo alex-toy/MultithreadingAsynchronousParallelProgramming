@@ -37,7 +37,9 @@ namespace ThreadApp
 
             //MonitorThread.CreateThreads();
 
-            ManualResetEventThread.CreateThreads();
+            //ManualResetEventThread.CreateThreads();
+
+            AutoResetEventThread.CreateThreads();
         }
 
         private static void GetMainThread()
