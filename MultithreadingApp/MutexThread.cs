@@ -1,10 +1,8 @@
-﻿using System.Threading;
-
-namespace MultithreadingApp
+﻿namespace MultithreadingApp
 {
-    public class AutoResetEventThread
+    public class MutexThread
     {
-        static AutoResetEvent _autoResetEvent = new AutoResetEvent(true);
+        static Mutex _mutex = new Mutex();
 
         public static void CreateThreads()
         {
@@ -16,17 +14,17 @@ namespace MultithreadingApp
             }
 
             Thread.Sleep(4000);
-            _autoResetEvent.Set();
+            _mutex.ReleaseMutex();
         }
 
         public static void Write(object i)
         {
             Console.WriteLine($"Write {i}  waiting");
-            _autoResetEvent.WaitOne();
+            _mutex.WaitOne();
             Console.WriteLine($"Write {i}  start");
             Thread.Sleep(5000);
             Console.WriteLine($"Write {i}  completed");
-            _autoResetEvent.Set();
+            _mutex.ReleaseMutex();
         }
     }
 }

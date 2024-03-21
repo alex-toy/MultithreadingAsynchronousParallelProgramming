@@ -39,7 +39,9 @@ namespace ThreadApp
 
             //ManualResetEventThread.CreateThreads();
 
-            AutoResetEventThread.CreateThreads();
+            //AutoResetEventThread.CreateThreads();
+
+            MutexThread.CreateThreads();
         }
 
         private static void GetMainThread()
